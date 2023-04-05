@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "title": "High Resolution",
+    "subtitle": "Provided with high resolution images.",
+    "icon": "FaDesktop"
+  },
+  {
+    "id": "02",
+    "title": "Color Schemes",
+    "subtitle": "You can use color schemes as you need.",
+    "icon": "FaDiceD6"
+  },
+  {
+    "id": "03",
+    "title": "Google Fonts",
+    "subtitle": "You can change the fonts of the website.",
+    "icon": "FaGooglePlusG"
+  },
+  {
+    "id": "04",
+    "title": "Clean Codes",
+    "subtitle": "Clean code which can be understood.",
+    "icon": "FaAlignJustify"
+  },
+  {
+    "id": "05",
+    "title": "Responsive Design",
+    "subtitle": "Fully responsive and retina ready.",
+    "icon": "FaMagic"
+  },
+  {
+    "id": "06",
+    "title": "Easy to Use",
+    "subtitle": "The template can be fully customizable with ease.",
+    "icon": "FaCheckCircle"
+  },
+  {
+    "id": "07",
+    "title": "Perfect Showcase",
+    "subtitle": "Template makes your website look beautiful.",
+    "icon": "FaClone"
+  },
+  {
+    "id": "08",
+    "title": "Video Animation",
+    "subtitle": "You can also add videos to the website as you need.",
+    "icon": "FaPhotoVideo"
+  }
+]
