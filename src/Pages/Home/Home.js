@@ -9,6 +9,7 @@ import StatsSection from "./StatsSection";
 import TeamSection from "./TeamSection";
 import SpecialitiesSection from "./SpecialitiesSection";
 import TestimonialSection from "./TestimonialSection";
+import CompareServiceSection from "./CompareServiceSection";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <HeroSection></HeroSection>
       <ServiceSection></ServiceSection>
       <SpecialitiesSection></SpecialitiesSection>
+      <CompareServiceSection></CompareServiceSection>
       <StatsSection></StatsSection>
       <ClientSection></ClientSection>
       <FaqSection></FaqSection>

@@ -11,22 +11,21 @@ const TeamSection = () => {
         <div className="">
           <h1 className="text-5xl font-bold">Meet the Team</h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi.
+            Our team of talented professionals who helped in growing business.
           </p>
           <div className="p-12 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-            <div className="card shadow-2xl">
+            <div className="card shadow-5xl">
               <figure>
                 <img
-                  src="https://sofbox-react.iqonic.design/assets/images/team/01.jpg"
+                  src="https://i.ibb.co/qg4mB48/member01.png"
                   alt="team-member1"
                 />
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title text-primary text-center">
-                  JD Adams
+                  MD SAIFUR RAHMAN
                 </h2>
-                <p className="">Web Designer</p>
+                <p className="">Software Engineer</p>
                 <div className="flex gap-2">
                   <FaEnvelope size={"2em"}></FaEnvelope>
                   <FaFacebookSquare size={"2em"}></FaFacebookSquare>
@@ -35,18 +34,18 @@ const TeamSection = () => {
                 </div>
               </div>
             </div>
-            <div className="card shadow-2xl">
+            <div className="card shadow-5xl">
               <figure>
                 <img
-                  src="https://sofbox-react.iqonic.design/assets/images/team/01.jpg"
-                  alt="team-member1"
+                  src="https://i.ibb.co/VjBWpXq/member02.png"
+                  alt="team-member2"
                 />
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title text-primary text-center">
-                  JD Adams
+                  Rahat Uddin
                 </h2>
-                <p className="">Web Designer</p>
+                <p className="">Software Engineer</p>
                 <div className="flex gap-2">
                   <FaEnvelope size={"2em"}></FaEnvelope>
                   <FaFacebookSquare size={"2em"}></FaFacebookSquare>
@@ -55,18 +54,18 @@ const TeamSection = () => {
                 </div>
               </div>
             </div>
-            <div className="card shadow-2xl">
+            <div className="card shadow-5xl">
               <figure>
                 <img
-                  src="https://sofbox-react.iqonic.design/assets/images/team/01.jpg"
-                  alt="team-member1"
+                  src="https://i.ibb.co/BnzcY3z/member03.png"
+                  alt="team-member3"
                 />
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title text-primary text-center">
-                  JD Adams
+                  Fazle Rabbi
                 </h2>
-                <p className="">Web Designer</p>
+                <p className="">Software Engineer</p>
                 <div className="flex gap-2">
                   <FaEnvelope size={"2em"}></FaEnvelope>
                   <FaFacebookSquare size={"2em"}></FaFacebookSquare>
@@ -75,18 +74,18 @@ const TeamSection = () => {
                 </div>
               </div>
             </div>
-            <div className="card shadow-2xl">
+            <div className="card shadow-5xl">
               <figure>
                 <img
-                  src="https://sofbox-react.iqonic.design/assets/images/team/01.jpg"
-                  alt="team-member1"
+                  src="https://i.ibb.co/Fsqdjs0/member04.png"
+                  alt="team-member4"
                 />
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title text-primary text-center">
-                  JD Adams
+                  Rokon Uzzaman
                 </h2>
-                <p className="">Web Designer</p>
+                <p className="">Software Engineer</p>
                 <div className="flex gap-2">
                   <FaEnvelope size={"2em"}></FaEnvelope>
                   <FaFacebookSquare size={"2em"}></FaFacebookSquare>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaWhmcs } from "react-icons/fa";
+import { FaWhmcs, FaUsersCog, FaRegUser, FaUserGraduate } from "react-icons/fa";
 
 const StatsSection = () => {
   return (
@@ -15,29 +15,29 @@ const StatsSection = () => {
           <div className="card card-bordered border-t-4 rounded-b-lg border-primary text-neutral-content">
             <div className="card-body items-center text-center text-white ">
               <FaWhmcs color="primary" size={"3em"}></FaWhmcs>
-              <h2 className="card-title font-bold text-5xl">750+</h2>
+              <h2 className="card-title font-bold text-5xl">120+</h2>
               <p className="text-xl">Finished Projects</p>
             </div>
           </div>
           <div className="card card-bordered border-t-4 rounded-b-lg border-primary text-neutral-content">
             <div className="card-body items-center text-center text-white ">
-              <FaWhmcs color="primary" size={"3em"}></FaWhmcs>
-              <h2 className="card-title font-bold text-5xl">750+</h2>
-              <p className="text-xl">Finished Projects</p>
+              <FaUsersCog color="primary" size={"3em"}></FaUsersCog>
+              <h2 className="card-title font-bold text-5xl">50+</h2>
+              <p className="text-xl">Talented Members</p>
             </div>
           </div>
           <div className="card card-bordered border-t-4 rounded-b-lg border-primary text-neutral-content">
             <div className="card-body items-center text-center text-white ">
-              <FaWhmcs color="primary" size={"3em"}></FaWhmcs>
-              <h2 className="card-title font-bold text-5xl">750+</h2>
-              <p className="text-xl">Finished Projects</p>
+              <FaRegUser color="primary" size={"3em"}></FaRegUser>
+              <h2 className="card-title font-bold text-5xl">25+</h2>
+              <p className="text-xl">Happy Customers</p>
             </div>
           </div>
           <div className="card card-bordered border-t-4 rounded-b-lg border-primary text-neutral-content">
             <div className="card-body items-center text-center text-white ">
-              <FaWhmcs color="primary" size={"3em"}></FaWhmcs>
-              <h2 className="card-title font-bold text-5xl">750+</h2>
-              <p className="text-xl">Finished Projects</p>
+              <FaUserGraduate color="primary" size={"3em"}></FaUserGraduate>
+              <h2 className="card-title font-bold text-5xl">5+</h2>
+              <p className="text-xl">Years of Experience</p>
             </div>
           </div>
         </div>

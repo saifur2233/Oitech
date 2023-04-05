@@ -15,9 +15,9 @@ const SpecialitiesSection = () => {
     <div className="hero py-12">
       <div className="hero-content text-center">
         <div className="">
-          <h1 className="text-5xl font-bold">Sofbox Specialities</h1>
+          <h1 className="text-5xl font-bold">Braintech Specialities</h1>
           <p className="py-6">
-            Sofbox is popular for the below specialities that can make your
+            Braintech is popular for the below specialities that can make your
             website look beautiful.
           </p>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
