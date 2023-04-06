@@ -15,9 +15,9 @@ const Services = () => {
         <div className="">
           <h1 className="text-5xl font-bold">Services We Offer</h1>
           <p className="py-6">
-            With Braintech you can create beautiful and elegant websites that
-            suits your business. Create charming and graceful websites that
-            match your business with Braintech's assistance.
+            With Oitech you can create beautiful and elegant websites that suits
+            your business. Create charming and graceful websites that match your
+            business with Oitech's assistance.
           </p>
           <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:px-16">
             <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white">
@@ -28,7 +28,7 @@ const Services = () => {
                 </h2>
                 <p className="text-justify">
                   Create charming and graceful websites that match your business
-                  with Braintech's assistance.
+                  with Oitech's assistance.
                 </p>
                 <div className="card-actions justify-start">
                   <button className="btn btn-link hover:text-white">
@@ -44,8 +44,8 @@ const Services = () => {
                   Apps Development
                 </h2>
                 <p className="text-justify">
-                  With Braintech, you can build exquisite and responsive app
-                  that reflect your business's style and messaging.
+                  With Oitech, you can build exquisite and responsive app that
+                  reflect your business's style and messaging.
                 </p>
                 <div className="card-actions justify-start">
                   <button className="btn btn-link hover:text-white">
@@ -59,9 +59,9 @@ const Services = () => {
                 <FaDesktop size={"2em"}></FaDesktop>
                 <h2 className="card-title text-2xl font-bold">IT Consulting</h2>
                 <p className="text-justify">
-                  Braintech offers IT consulting services to help businesses
-                  make informed decisions about their technology infrastructure
-                  and strategy.
+                  Oitech offers IT consulting services to help businesses make
+                  informed decisions about their technology infrastructure and
+                  strategy.
                 </p>
                 <div className="card-actions justify-start">
                   <button className="btn btn-link hover:text-white">
@@ -78,7 +78,7 @@ const Services = () => {
                   Software Maintenance
                 </h2>
                 <p className="text-justify">
-                  Braintech offers software maintenance services to ensure that
+                  Oitech offers software maintenance services to ensure that
                   your software is up-to-date and functioning properly.
                 </p>
                 <div className="card-actions justify-start">
@@ -95,7 +95,7 @@ const Services = () => {
                   Digital Marketing
                 </h2>
                 <p className="text-justify">
-                  Braintech offers digital marketing services to help businesses
+                  Oitech offers digital marketing services to help businesses
                   promote their brand and reach their target audience through
                   various online channels.
                 </p>
@@ -111,9 +111,9 @@ const Services = () => {
                 <FaSearchengin size={"2em"}></FaSearchengin>
                 <h2 className="card-title text-2xl font-bold">Data Analysis</h2>
                 <p className="text-justify">
-                  Braintech offers data analysis services to help businesses
-                  make sense of their data, uncover insights, and make
-                  data-driven decisions.
+                  Oitech offers data analysis services to help businesses make
+                  sense of their data, uncover insights, and make data-driven
+                  decisions.
                 </p>
                 <div className="card-actions justify-start">
                   <button className="btn btn-link hover:text-white">

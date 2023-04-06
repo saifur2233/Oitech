@@ -60,7 +60,7 @@ const Header = () => {
   );
   return (
     <div className="navbar bg-primary">
-      <div className="navbar-start">
+      <div className="navbar-start py-2">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
@@ -89,7 +89,7 @@ const Header = () => {
           to={"/"}
           className="btn btn-ghost normal-case text-xl font-bold text-white"
         >
-          <img src="https://i.ibb.co/51wDkMN/logo.png" width="200" alt="logo" />
+          <img src="https://i.ibb.co/KbRptJq/oitech-logo.png" alt="logo" />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

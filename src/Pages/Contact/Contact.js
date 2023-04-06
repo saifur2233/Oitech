@@ -131,7 +131,7 @@ const Contact = () => {
           <div className="">
             <h1 className="text-5xl font-bold">Get In Touch</h1>
             <p className="py-3 px-20">
-              Getting in touch with Braintech would involve reaching out to them
+              Getting in touch with Oitech would involve reaching out to them
               through one or more of their contact channels, such as their
               website, email, phone number, or social media profiles.
             </p>

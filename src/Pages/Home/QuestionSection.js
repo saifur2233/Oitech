@@ -9,7 +9,7 @@ const QuestionSection = () => {
             Have Any Questions? Let's Answer Them
           </h1>
           <p className="py-6">
-            Braintech empowers you to design stunning and sophisticated websites
+            Oitech empowers you to design stunning and sophisticated websites
             that align with the unique needs of your business.
           </p>
           <form>

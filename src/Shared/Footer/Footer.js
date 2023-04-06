@@ -1,19 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-base-100 text-base-content">
+    <footer className="footer p-10 bg-base-200 text-base-content">
       <div>
-        <img
-          src="https://i.ibb.co/51wDkMN/logo.png"
-          width={"200px"}
-          alt="footerimg"
-          className="bg-primary"
-        />
+        <img src="https://i.ibb.co/KbRptJq/oitech-logo.png" alt="footerimg" />
+
         <p>
-          Braintech enables you to develop websites that are both
+          Oitech enables you to develop websites that are both
           <br />
           visually appealing and appropriate for your company's objectives.
         </p>

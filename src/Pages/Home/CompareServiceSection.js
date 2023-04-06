@@ -21,8 +21,8 @@ const CompareServiceSection = () => {
 
                 <div className="card-actions justify-center">
                   <p className="text-justify">
-                    Braintech allows easily to customize the template as per
-                    your business needs. Also it makes easy to tailor-made.
+                    Oitech allows easily to customize the template as per your
+                    business needs. Also it makes easy to tailor-made.
                   </p>
                   <div className="tooltip tooltip-open" data-tip="90"></div>
                   <progress
@@ -43,8 +43,8 @@ const CompareServiceSection = () => {
 
                 <div className="card-actions justify-center">
                   <p className="text-justify">
-                    Braintech allows easily to customize the template as per
-                    your business needs. Also it makes easy to tailor-made.
+                    Oitech allows easily to customize the template as per your
+                    business needs. Also it makes easy to tailor-made.
                   </p>
                   <div className="tooltip tooltip-open" data-tip="70"></div>
                   <progress
@@ -62,7 +62,7 @@ const CompareServiceSection = () => {
 
                 <div className="card-actions justify-center">
                   <p className="text-justify mb-5">
-                    Braintech harmonious design and super clean looks will make
+                    Oitech harmonious design and super clean looks will make
                     your website look beautiful and elegant. It makes your
                     creation look good.
                   </p>
@@ -85,7 +85,7 @@ const CompareServiceSection = () => {
 
                 <div className="card-actions justify-center">
                   <p className="text-justify mb-5">
-                    Braintech harmonious design and super clean looks will make
+                    Oitech harmonious design and super clean looks will make
                     your website look beautiful and elegant. It makes your
                     creation look good.
                   </p>

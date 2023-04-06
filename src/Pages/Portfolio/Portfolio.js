@@ -9,7 +9,7 @@ const Portfolio = () => {
         <div className="">
           <h1 className="text-5xl font-bold">Awesome Portfolio</h1>
           <p className="py-6">
-            Braintech harmonious design and super clean looks will make your
+            Oitech harmonious design and super clean looks will make your
             website look beautiful and elegant. It makes your creation look
             good.
           </p>
