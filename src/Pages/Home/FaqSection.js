@@ -19,19 +19,12 @@ const FaqSection = () => {
             className="my-3 collapse collapse-plus border border-primary bg-base-100 rounded-box"
           >
             <div className="collapse-title text-xl font-medium text-primary">
-              Focus me to see content
+              What kind of web development services do you offer?
             </div>
             <div className="collapse-content">
               <p className="text-white">
-                mhmd, Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table.
+                The web development services offered by a company may vary, but
+                generally include website design, development, and maintenance.
               </p>
             </div>
           </div>
@@ -40,19 +33,12 @@ const FaqSection = () => {
             className="my-3 collapse collapse-plus border border-primary bg-base-100 rounded-box"
           >
             <div className="collapse-title text-xl font-medium text-primary">
-              Focus me to see content
+              How long does it take to complete a web development project?
             </div>
             <div className="collapse-content">
               <p className="text-white">
-                mhmd, Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table.
+                The time it takes to complete a web development project depends
+                on the scope and complexity of the project.
               </p>
             </div>
           </div>
@@ -61,19 +47,13 @@ const FaqSection = () => {
             className="my-3 collapse collapse-plus border border-primary bg-base-100 rounded-box"
           >
             <div className="collapse-title text-xl font-medium text-primary">
-              Focus me to see content
+              How do you ensure that the website you create is secure?
             </div>
             <div className="collapse-content">
               <p className="text-white">
-                mhmd, Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table.
+                To ensure website security, a company may implement various
+                measures such as regular updates, firewalls, and secure server
+                hosting.
               </p>
             </div>
           </div>
@@ -82,19 +62,12 @@ const FaqSection = () => {
             className="my-3 collapse collapse-plus border border-primary bg-base-100 rounded-box"
           >
             <div className="collapse-title text-xl font-medium text-primary">
-              Focus me to see content
+              What kind of IT consulting services do you offer?
             </div>
             <div className="collapse-content">
               <p className="text-white">
-                mhmd, Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table.
+                IT consulting services may include technology strategy, project
+                management, infrastructure planning, and IT security solutions.
               </p>
             </div>
           </div>

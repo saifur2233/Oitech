@@ -92,7 +92,7 @@ const About = () => {
           <img
             src="https://i.ibb.co/2g3mYfK/choose.png"
             alt="choose"
-            className="max-w-md rounded-lg shadow-2xl"
+            className="max-w-md rounded-lg "
           />
           <div className="px-6">
             <p className="font-bold text-primary">ABOUT</p>

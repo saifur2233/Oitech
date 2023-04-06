@@ -14,11 +14,9 @@ const OfficeLocationSection = () => {
             <div className="card card-bordered border-t-4 rounded-b-lg border-primary">
               <div className="card-body">
                 <h2 className="card-title text-primary items-start font-bold text-2xl">
-                  Bangladesh
+                  New Zealand
                 </h2>
-                <p className="text-lg text-start pb-2">
-                  Road 12, Dhanmonddi, Dhaka, Bangladesh 3505
-                </p>
+                <p className="text-lg text-start pb-2">Auckland, New Zealand</p>
                 <div className="flex gap-6">
                   <FaMailBulk
                     style={{
@@ -30,7 +28,7 @@ const OfficeLocationSection = () => {
                   ></FaMailBulk>
                   <div className="text-start">
                     <p className="font-bold text-primary">Email:</p>
-                    <p>info@example.com</p>
+                    <p>shirapria@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex gap-6">
@@ -44,7 +42,7 @@ const OfficeLocationSection = () => {
                   ></FaPhoneAlt>
                   <div className="text-start">
                     <p className="font-bold text-primary">Phone:</p>
-                    <p>+29876543210</p>
+                    <p>+64 20 4166 1516</p>
                   </div>
                 </div>
               </div>
@@ -68,7 +66,7 @@ const OfficeLocationSection = () => {
                   ></FaMailBulk>
                   <div className="text-start">
                     <p className="font-bold text-primary">Email:</p>
-                    <p>info@example.com</p>
+                    <p>saifurnstuiit223344@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex gap-6">
@@ -82,7 +80,7 @@ const OfficeLocationSection = () => {
                   ></FaPhoneAlt>
                   <div className="text-start">
                     <p className="font-bold text-primary">Phone:</p>
-                    <p>+29876543210</p>
+                    <p>+8801309080748</p>
                   </div>
                 </div>
               </div>

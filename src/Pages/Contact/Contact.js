@@ -130,10 +130,10 @@ const Contact = () => {
         <div className="hero-content text-center">
           <div className="">
             <h1 className="text-5xl font-bold">Get In Touch</h1>
-            <p className="py-3">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+            <p className="py-3 px-20">
+              Getting in touch with Braintech would involve reaching out to them
+              through one or more of their contact channels, such as their
+              website, email, phone number, or social media profiles.
             </p>
             <div className="grid gap-8 grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
               <div className="card shadow-2xl">
@@ -141,8 +141,8 @@ const Contact = () => {
                   <h2 className="card-title">Google Map:</h2>
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467363.79282282!2d90.04848299197425!3d23.773054758464646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ad9a69f36f%3A0xffd63d9e3af04553!2sDhanmondi%2032!5e0!3m2!1sen!2sbd!4v1680757664389!5m2!1sen!2sbd"
-                    width="600"
-                    height="450"
+                    width="550"
+                    height="400"
                     style={{ border: 0 }}
                     allowfullscreen=""
                     loading="lazy"

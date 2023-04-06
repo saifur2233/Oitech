@@ -14,9 +14,9 @@ const HeroSection = () => {
             Providing The Best Services & IT Solutions
           </h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Our company is dedicated to providing IT solutions that enable
+            businesses and individuals to overcome challenging obstacles and
+            achieve their goals.
           </p>
           <button className="btn btn-outline btn-primary gap-2">
             Get Started

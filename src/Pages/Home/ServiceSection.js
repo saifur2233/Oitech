@@ -7,22 +7,27 @@ import {
   FaPager,
   FaSearchengin,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ServiceSection = () => {
   return (
     <div className="pb-12">
       <div className="hero">
-        <div className="hero-content flex flex-col lg:flex-row">
+        <div className="hero-content flex flex-col lg:flex-row lg:px-16">
           <div>
             <p className="font-bold text-primary">SERVICES</p>
             <h1 className="text-5xl font-bold">Services We Offer</h1>
-            <p className="py-6">
-              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Omnis Id
-              Atque Dignissimos Repellat Quae Ullam.
+            <p className="py-6 w-3/4">
+              With Braintech you can create beautiful and elegant websites that
+              suits your business. Also, Braintech makes it possible to design
+              attractive and refined websites that fit your company's identity
+              and purpose.
             </p>
           </div>
-          <div>
-            <button className="btn btn-primary">See All Services</button>
+          <div className="pr-12">
+            <Link to={"/services"}>
+              <button className="btn btn-primary">See All Services</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -31,9 +36,9 @@ const ServiceSection = () => {
           <div className="card-body">
             <FaLaptopCode size={"2em"}></FaLaptopCode>
             <h2 className="card-title text-2xl font-bold">Web Development</h2>
-            <p>
-              Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis
-              tempore perfe rendis explicabo.
+            <p className="text-justify">
+              Create charming and graceful websites that match your business
+              with Braintech's assistance.
             </p>
             <div className="card-actions justify-start">
               <button className="btn btn-link hover:text-white">
@@ -46,9 +51,9 @@ const ServiceSection = () => {
           <div className="card-body">
             <FaMobileAlt size={"2em"}></FaMobileAlt>
             <h2 className="card-title text-2xl font-bold">Apps Development</h2>
-            <p>
-              Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis
-              tempore perfe rendis explicabo.
+            <p className="text-justify">
+              With Braintech, you can build exquisite and responsive app that
+              reflect your business's style and messaging.
             </p>
             <div className="card-actions justify-start">
               <button className="btn btn-link hover:text-white">
@@ -61,9 +66,10 @@ const ServiceSection = () => {
           <div className="card-body">
             <FaDesktop size={"2em"}></FaDesktop>
             <h2 className="card-title text-2xl font-bold">IT Consulting</h2>
-            <p>
-              Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis
-              tempore perfe rendis explicabo.
+            <p className="text-justify">
+              Braintech offers IT consulting services to help businesses make
+              informed decisions about their technology infrastructure and
+              strategy.
             </p>
             <div className="card-actions justify-start">
               <button className="btn btn-link hover:text-white">
@@ -79,9 +85,9 @@ const ServiceSection = () => {
             <h2 className="card-title text-2xl font-bold">
               Software Maintenance
             </h2>
-            <p>
-              Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis
-              tempore perfe rendis explicabo.
+            <p className="text-justify">
+              Braintech offers software maintenance services to ensure that your
+              software is up-to-date and functioning properly.
             </p>
             <div className="card-actions justify-start">
               <button className="btn btn-link hover:text-white">
@@ -94,9 +100,10 @@ const ServiceSection = () => {
           <div className="card-body">
             <FaPager size={"2em"}></FaPager>
             <h2 className="card-title text-2xl font-bold">Digital Marketing</h2>
-            <p>
-              Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis
-              tempore perfe rendis explicabo.
+            <p className="text-justify">
+              Braintech offers digital marketing services to help businesses
+              promote their brand and reach their target audience through
+              various online channels.
             </p>
             <div className="card-actions justify-start">
               <button className="btn btn-link hover:text-white">
@@ -109,9 +116,10 @@ const ServiceSection = () => {
           <div className="card-body">
             <FaSearchengin size={"2em"}></FaSearchengin>
             <h2 className="card-title text-2xl font-bold">Data Analysis</h2>
-            <p>
-              Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis
-              tempore perfe rendis explicabo.
+            <p className="text-justify">
+              Braintech offers data analysis services to help businesses make
+              sense of their data, uncover insights, and make data-driven
+              decisions.
             </p>
             <div className="card-actions justify-start">
               <button className="btn btn-link hover:text-white">

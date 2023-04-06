@@ -9,9 +9,8 @@ const QuestionSection = () => {
             Have Any Questions? Let's Answer Them
           </h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Braintech empowers you to design stunning and sophisticated websites
+            that align with the unique needs of your business.
           </p>
           <form>
             <div className="flex gap-4">

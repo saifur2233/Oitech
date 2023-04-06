@@ -85,7 +85,10 @@ const Header = () => {
             {menuItems}
           </ul>
         </div>
-        <Link className="btn btn-ghost normal-case text-xl font-bold text-white">
+        <Link
+          to={"/"}
+          className="btn btn-ghost normal-case text-xl font-bold text-white"
+        >
           <img src="https://i.ibb.co/51wDkMN/logo.png" width="200" alt="logo" />
         </Link>
       </div>
@@ -93,7 +96,7 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1">{menuItems}</ul>
       </div>
       <div className="navbar-end">
-        <Link className="btn btn-accent text-white mr-4">Get started</Link>
+        <Link className="btn btn-accent mr-4">Get started</Link>
         <button onClick={handleDark} className="btn btn-ghost btn-circle">
           {localStorage.getItem("dark-mode") == "false" ? (
             <FaRegMoon size={"2em"}></FaRegMoon>
