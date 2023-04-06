@@ -32,8 +32,28 @@ const Header = () => {
         </Link>
       </li>
       <li>
+        <Link className="font-bold text-white" to="/services">
+          Services
+        </Link>
+      </li>
+      <li>
         <Link className="font-bold text-white" to="/about">
           About
+        </Link>
+      </li>
+      <li>
+        <Link className="font-bold text-white" to="/portfolio">
+          Portfolio
+        </Link>
+      </li>
+      <li>
+        <Link className="font-bold text-white" to="/team">
+          Team
+        </Link>
+      </li>
+      <li>
+        <Link className="font-bold text-white" to="/contact">
+          Contact
         </Link>
       </li>
     </React.Fragment>

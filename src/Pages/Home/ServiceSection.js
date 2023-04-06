@@ -60,7 +60,7 @@ const ServiceSection = () => {
         <div className="card shadow-2xl card-bordered border-primary hover:bg-primary hover:text-white">
           <div className="card-body">
             <FaDesktop size={"2em"}></FaDesktop>
-            <h2 className="card-title text-2xl font-bold">IT Solutions</h2>
+            <h2 className="card-title text-2xl font-bold">IT Consulting</h2>
             <p>
               Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis
               tempore perfe rendis explicabo.
