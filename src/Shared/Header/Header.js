@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaSun } from "react-icons/fa";
 import { FaRegMoon } from "react-icons/fa";
+import { AuthContext } from "../../Contexts/UserContext";
 
 const Header = () => {
+  const { user, logout } = useContext(AuthContext);
   const [dark, setDark] = useState(false);
   const handleDark = () => {
     setDark(!dark);
@@ -56,6 +58,26 @@ const Header = () => {
           Contact
         </Link>
       </li>
+      {user?.uid ? (
+        <>
+          <li>
+            <Link to={"/dashboard"} className="font-bold text-white">
+              {user?.email.slice(0, 10)}
+            </Link>
+          </li>
+          <li>
+            <Link className="font-bold text-white" onClick={logout}>
+              Logout
+            </Link>
+          </li>
+        </>
+      ) : (
+        <li>
+          <Link className="font-bold text-white" to="/admin/login">
+            Login
+          </Link>
+        </li>
+      )}
     </React.Fragment>
   );
   return (

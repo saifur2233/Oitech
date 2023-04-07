@@ -1,33 +1,35 @@
 import React from "react";
 import { toast } from "react-hot-toast";
 
-const QuestionSection = () => {
-  const handleSendMessage = (event) => {
+const AddService = () => {
+  const handleAddService = (event) => {
     event.preventDefault();
     const form = event.target;
     const name = form.name.value;
-    const email = form.email.value;
-    const subject = form.subject.value;
-    const message = form.message.value;
+    const smallimg = form.smallimg.value;
+    const largeimg = form.largeimg.value;
+    const subtitle = form.subtitle.value;
+    const description = form.description.value;
 
-    const msgObj = {
+    const serviceObj = {
       name,
-      email,
-      subject,
-      message,
+      smallimg,
+      largeimg,
+      subtitle,
+      description,
     };
-    //save info
-    fetch("http://localhost:4000/api/v1/messages", {
+
+    fetch("http://localhost:4000/api/v1/services", {
       method: "POST",
       headers: {
         "content-type": "application/json",
       },
-      body: JSON.stringify(msgObj),
+      body: JSON.stringify(serviceObj),
     })
       .then((res) => res.json())
       .then((result) => {
         console.log(result);
-        toast.success("Message Send Successfully");
+        toast.success("Service Add Successfully");
         form.reset();
       });
   };
@@ -35,14 +37,12 @@ const QuestionSection = () => {
     <div className="hero">
       <div className="hero-content text-center">
         <div className="py-12">
-          <h1 className="text-5xl font-bold">
-            Have Any Questions? Let's Answer Them
-          </h1>
-          <p className="py-6">
-            Oitech empowers you to design stunning and sophisticated websites
-            that align with the unique needs of your business.
-          </p>
-          <form onSubmit={handleSendMessage}>
+          <h1 className="text-5xl font-bold">Add Service</h1>
+
+          <form
+            onSubmit={handleAddService}
+            className="sm:mx-w-sm md:mx-w-md lg:px-20"
+          >
             <div className="flex gap-4">
               <div className="form-control w-1/2">
                 <label className="label">
@@ -60,12 +60,12 @@ const QuestionSection = () => {
               <div className="form-control w-1/2">
                 <label className="label">
                   <span className="label-text font-bold text-primary">
-                    Email <strong className="text-error">*</strong>
+                    Small Image Link <strong className="text-error">*</strong>
                   </span>
                 </label>
                 <input
-                  type="email"
-                  name="email"
+                  type="text"
+                  name="smallimg"
                   required
                   className="input input-bordered border-primary"
                 />
@@ -74,12 +74,25 @@ const QuestionSection = () => {
             <div className="form-control">
               <label className="label">
                 <span className="label-text font-bold text-primary">
-                  Subject <strong className="text-error">*</strong>
+                  Large Image Link <strong className="text-error">*</strong>
                 </span>
               </label>
               <input
                 type="text"
-                name="subject"
+                name="largeimg"
+                required
+                className="input input-bordered border-primary"
+              />
+            </div>
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text font-bold text-primary">
+                  Subtitle of Service <strong className="text-error">*</strong>
+                </span>
+              </label>
+              <input
+                type="text"
+                name="subtitle"
                 required
                 className="input input-bordered border-primary"
               />
@@ -87,18 +100,19 @@ const QuestionSection = () => {
             <div className="form-control">
               <label className="label">
                 <span className="label-text text-primary font-bold">
-                  Message <strong className="text-error">*</strong>
+                  Breif Description of Service{" "}
+                  <strong className="text-error">*</strong>
                 </span>
               </label>
 
               <textarea
+                name="description"
                 required
-                name="message"
                 className="textarea textarea-bordered border-primary textarea-lg w-full"
               ></textarea>
             </div>
             <button className="my-6 btn btn-wide btn-primary">
-              Send Your Message
+              Add To System
             </button>
           </form>
         </div>
@@ -107,4 +121,4 @@ const QuestionSection = () => {
   );
 };
 
-export default QuestionSection;
+export default AddService;

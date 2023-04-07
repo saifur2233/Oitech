@@ -3,12 +3,13 @@ import { AuthContext } from "../../Contexts/UserContext";
 import { toast } from "react-hot-toast";
 
 const AdminRegistration = () => {
-  const { createUser } = useContext(AuthContext);
+  const { createUser, updateUser } = useContext(AuthContext);
   const [error, setError] = useState("");
 
   const handleAdminRegistration = (event) => {
     event.preventDefault();
     const form = event.target;
+    const name = form.name.value;
     const email = form.email.value;
     const password = form.password.value;
     console.log(email, password);
@@ -22,7 +23,14 @@ const AdminRegistration = () => {
     createUser(email, password)
       .then((result) => {
         const user = result.user;
-        toast.success("Admin Registered Successfully");
+        updateUser({ displayName: name })
+          .then(() => {
+            toast.success("Admin Registered Successfully");
+          })
+          .catch((error) => {
+            toast.error("Admin Registered Failed.");
+            setError(error.message);
+          });
       })
       .catch((error) => {
         toast.error("Admin Registered Failed.");

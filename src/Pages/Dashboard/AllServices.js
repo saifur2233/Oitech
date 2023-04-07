@@ -1,23 +1,23 @@
-import { useQuery } from "@tanstack/react-query";
 import React, { useState } from "react";
 import Loading from "../../Shared/Loading/Loading";
+import { useQuery } from "@tanstack/react-query";
 
-const AllMessage = () => {
-  const [deletingMSg, setDeletingMsg] = useState(null);
+const AllServices = () => {
+  const [deletingService, setDeletingService] = useState(null);
   const closeModal = () => {
-    setDeletingMsg(null);
+    setDeletingService(null);
   };
 
   const {
-    data: allMessages = [],
+    data: allServices = [],
     isLoading,
     refetch,
   } = useQuery({
-    queryKey: ["allMessages"],
+    queryKey: ["allServices"],
     queryFn: async () => {
-      const res = await fetch(`http://localhost:4000/api/v1/messages`);
+      const res = await fetch(`http://localhost:4000/api/v1/services`);
       const data = await res.json();
-      return data.allMsg;
+      return data.allServices;
     },
   });
 
@@ -25,14 +25,13 @@ const AllMessage = () => {
     return <Loading></Loading>;
   }
 
-  const hnadleDeleteUser = (user) => {
-    console.log(user);
+  const hnadleDeleteUser = (service) => {
+    console.log(service);
   };
-
   return (
     <div>
       <h1 className="text-2xl font-bold text-center text-secondary py-6">
-        All Message
+        All Services
       </h1>
       <div className="overflow-x-auto">
         <table className="table table-zebra w-full">
@@ -47,19 +46,24 @@ const AllMessage = () => {
             </tr>
           </thead>
           <tbody>
-            {allMessages.map((msg, i) => (
-              <tr key={msg._id}>
+            {allServices.map((service, i) => (
+              <tr key={service._id}>
                 <th>{i + 1}</th>
                 <td>
-                  <div className="font-bold">{msg.name}</div>
+                  <img src={service?.smallimg} width={"50px"} alt="smallimg" />
                 </td>
-                <td>{msg?.email}</td>
-                <td>{msg?.subject.slice(0, 10)}</td>
-                <td>{msg?.message.slice(0, 10)}</td>
+                <td>
+                  <img src={service?.largeimg} width={"50px"} alt="largeimg" />
+                </td>
+                <td>
+                  <div className="font-bold">{service.name}</div>
+                </td>
+                <td>{service?.subtitle.slice(0, 10)}</td>
+                <td>{service?.description.slice(0, 10)}</td>
                 <td>
                   <label className="btn btn-outline btn-primary">V</label>
                   <label
-                    onClick={() => setDeletingMsg(msg)}
+                    onClick={() => setDeletingService(service)}
                     htmlFor="confirmationmodal"
                     className="btn btn-outline btn-error"
                   >
@@ -75,4 +79,4 @@ const AllMessage = () => {
   );
 };
 
-export default AllMessage;
+export default AllServices;

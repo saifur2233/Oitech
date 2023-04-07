@@ -9,11 +9,12 @@ import Portfolio from "../Pages/Portfolio/Portfolio";
 import DashboardLayout from "../Layouts/DashboardLayout";
 import MyProfile from "../Pages/Dashboard/MyProfile";
 import AllMessage from "../Pages/Dashboard/AllMessage";
-import AllFaq from "../Pages/Dashboard/AllFaq";
 import AdminLogin from "../Pages/Auth/AdminLogin";
 import AdminRegistration from "../Pages/Auth/AdminRegistration";
 import NotFound from "../Pages/NotFound/NotFound";
 import PrivateRoute from "./PrivateRoute";
+import AllServices from "../Pages/Dashboard/AllServices";
+import AddService from "../Pages/Dashboard/AddService";
 
 export const routes = createBrowserRouter([
   {
@@ -80,10 +81,18 @@ export const routes = createBrowserRouter([
         ),
       },
       {
-        path: "/dashboard/faq",
+        path: "/dashboard/addService",
         element: (
           <PrivateRoute>
-            <AllFaq></AllFaq>
+            <AddService></AddService>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/dashboard/services",
+        element: (
+          <PrivateRoute>
+            <AllServices></AllServices>
           </PrivateRoute>
         ),
       },

@@ -21,9 +21,8 @@ const Home = () => {
       <StatsSection></StatsSection>
       <ClientSection></ClientSection>
       <FaqSection></FaqSection>
-      <TeamSection></TeamSection>
       <QuestionSection></QuestionSection>
-
+      <TeamSection></TeamSection>
       <OfficeLocationSection></OfficeLocationSection>
     </div>
   );

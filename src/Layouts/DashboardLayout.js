@@ -25,7 +25,10 @@ const DashboardLayout = () => {
               <Link to="/dashboard/message">All Message</Link>
             </li>
             <li>
-              <Link to="/dashboard/faq">All FAQ</Link>
+              <Link to="/dashboard/addService">Add Service</Link>
+            </li>
+            <li>
+              <Link to="/dashboard/services">All Services</Link>
             </li>
           </ul>
         </div>
