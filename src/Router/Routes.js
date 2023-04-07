@@ -13,6 +13,7 @@ import AllFaq from "../Pages/Dashboard/AllFaq";
 import AdminLogin from "../Pages/Auth/AdminLogin";
 import AdminRegistration from "../Pages/Auth/AdminRegistration";
 import NotFound from "../Pages/NotFound/NotFound";
+import PrivateRoute from "./PrivateRoute";
 
 export const routes = createBrowserRouter([
   {
@@ -64,15 +65,27 @@ export const routes = createBrowserRouter([
     children: [
       {
         path: "/dashboard",
-        element: <MyProfile></MyProfile>,
+        element: (
+          <PrivateRoute>
+            <MyProfile></MyProfile>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/dashboard/message",
-        element: <AllMessage></AllMessage>,
+        element: (
+          <PrivateRoute>
+            <AllMessage></AllMessage>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/dashboard/faq",
-        element: <AllFaq></AllFaq>,
+        element: (
+          <PrivateRoute>
+            <AllFaq></AllFaq>
+          </PrivateRoute>
+        ),
       },
     ],
   },
