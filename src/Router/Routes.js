@@ -6,6 +6,13 @@ import About from "../Pages/About/About";
 import Team from "../Pages/Team/Team";
 import Contact from "../Pages/Contact/Contact";
 import Portfolio from "../Pages/Portfolio/Portfolio";
+import DashboardLayout from "../Layouts/DashboardLayout";
+import MyProfile from "../Pages/Dashboard/MyProfile";
+import AllMessage from "../Pages/Dashboard/AllMessage";
+import AllFaq from "../Pages/Dashboard/AllFaq";
+import AdminLogin from "../Pages/Auth/AdminLogin";
+import AdminRegistration from "../Pages/Auth/AdminRegistration";
+import NotFound from "../Pages/NotFound/NotFound";
 
 export const routes = createBrowserRouter([
   {
@@ -35,6 +42,37 @@ export const routes = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact></Contact>,
+      },
+      {
+        path: "/admin/login",
+        element: <AdminLogin></AdminLogin>,
+      },
+      {
+        path: "/admin/register",
+        element: <AdminRegistration></AdminRegistration>,
+      },
+      {
+        path: "*",
+        element: <NotFound></NotFound>,
+      },
+    ],
+  },
+  {
+    path: "/dashboard",
+    element: <DashboardLayout></DashboardLayout>,
+    errorElement: <NotFound></NotFound>,
+    children: [
+      {
+        path: "/dashboard",
+        element: <MyProfile></MyProfile>,
+      },
+      {
+        path: "/dashboard/message",
+        element: <AllMessage></AllMessage>,
+      },
+      {
+        path: "/dashboard/faq",
+        element: <AllFaq></AllFaq>,
       },
     ],
   },
