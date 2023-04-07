@@ -5,8 +5,10 @@ const Footer = () => {
   return (
     <footer className="footer p-10 bg-base-200 text-base-content">
       <div>
-        <img src="https://i.ibb.co/KbRptJq/oitech-logo.png" alt="footerimg" />
-
+        <div className="flex">
+          <img src="https://i.ibb.co/BCjN11w/oitech-icon.png" alt="footerimg" />
+          <h2 className="font-bold text-3xl pt-2">Oitech</h2>
+        </div>
         <p>
           Oitech enables you to develop websites that are both
           <br />
