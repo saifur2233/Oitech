@@ -22,6 +22,9 @@ const DashboardLayout = () => {
               <Link to="/dashboard">My Profile</Link>
             </li>
             <li>
+              <Link to="/dashboard/admin/register">Add Admin</Link>
+            </li>
+            <li>
               <Link to="/dashboard/message">All Message</Link>
             </li>
             <li>

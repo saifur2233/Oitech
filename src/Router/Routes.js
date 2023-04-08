@@ -15,6 +15,7 @@ import NotFound from "../Pages/NotFound/NotFound";
 import PrivateRoute from "./PrivateRoute";
 import AllServices from "../Pages/Dashboard/AllServices";
 import AddService from "../Pages/Dashboard/AddService";
+import ServiceDetails from "../Pages/Service/ServiceDetails";
 
 export const routes = createBrowserRouter([
   {
@@ -28,6 +29,12 @@ export const routes = createBrowserRouter([
       {
         path: "/services",
         element: <Services></Services>,
+      },
+      {
+        path: "/services/:id",
+        element: <ServiceDetails></ServiceDetails>,
+        loader: ({ params }) =>
+          fetch(`http://localhost:4000/api/v1/services/${params.id}`),
       },
       {
         path: "/about",
@@ -50,10 +57,6 @@ export const routes = createBrowserRouter([
         element: <AdminLogin></AdminLogin>,
       },
       {
-        path: "/admin/register",
-        element: <AdminRegistration></AdminRegistration>,
-      },
-      {
         path: "*",
         element: <NotFound></NotFound>,
       },
@@ -69,6 +72,14 @@ export const routes = createBrowserRouter([
         element: (
           <PrivateRoute>
             <MyProfile></MyProfile>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/dashboard/admin/register",
+        element: (
+          <PrivateRoute>
+            <AdminRegistration></AdminRegistration>
           </PrivateRoute>
         ),
       },

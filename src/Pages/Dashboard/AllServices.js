@@ -38,10 +38,12 @@ const AllServices = () => {
           <thead>
             <tr>
               <th>Index</th>
+              <th>Small img</th>
+              <th>Large img</th>
+              <th>Process img</th>
               <th>Name</th>
-              <th>Email</th>
-              <th>Subject</th>
-              <th>Message</th>
+              <th>Subtitle</th>
+              <th>Description</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -54,6 +56,13 @@ const AllServices = () => {
                 </td>
                 <td>
                   <img src={service?.largeimg} width={"50px"} alt="largeimg" />
+                </td>
+                <td>
+                  <img
+                    src={service?.processimg}
+                    width={"50px"}
+                    alt="largeimg"
+                  />
                 </td>
                 <td>
                   <div className="font-bold">{service.name}</div>

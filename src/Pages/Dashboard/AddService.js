@@ -8,6 +8,7 @@ const AddService = () => {
     const name = form.name.value;
     const smallimg = form.smallimg.value;
     const largeimg = form.largeimg.value;
+    const processimg = form.processimg.value;
     const subtitle = form.subtitle.value;
     const description = form.description.value;
 
@@ -15,6 +16,7 @@ const AddService = () => {
       name,
       smallimg,
       largeimg,
+      processimg,
       subtitle,
       description,
     };
@@ -80,6 +82,19 @@ const AddService = () => {
               <input
                 type="text"
                 name="largeimg"
+                required
+                className="input input-bordered border-primary"
+              />
+            </div>
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text font-bold text-primary">
+                  Process Image Link <strong className="text-error">*</strong>
+                </span>
+              </label>
+              <input
+                type="text"
+                name="processimg"
                 required
                 className="input input-bordered border-primary"
               />
