@@ -21,7 +21,7 @@ const AddService = () => {
       description,
     };
 
-    fetch("http://localhost:4000/api/v1/services", {
+    fetch("https://oitech-server.vercel.app/api/v1/services", {
       method: "POST",
       headers: {
         "content-type": "application/json",

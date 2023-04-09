@@ -15,9 +15,11 @@ const AllMessage = () => {
   } = useQuery({
     queryKey: ["allMessages"],
     queryFn: async () => {
-      const res = await fetch(`http://localhost:4000/api/v1/messages`);
+      const res = await fetch(
+        `https://oitech-server.vercel.app/api/v1/messages`
+      );
       const data = await res.json();
-      return data.allMsg;
+      return data;
     },
   });
 

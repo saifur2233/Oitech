@@ -14,9 +14,9 @@ const Services = () => {
   const [myservices, setMyservices] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/v1/services")
+    fetch("https://oitech-server.vercel.app/api/v1/services")
       .then((res) => res.json())
-      .then((data) => setMyservices(data?.allServices));
+      .then((data) => setMyservices(data));
   }, []);
   return (
     <div className="hero py-12">

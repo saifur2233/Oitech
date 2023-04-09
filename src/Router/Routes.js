@@ -34,7 +34,9 @@ export const routes = createBrowserRouter([
         path: "/services/:id",
         element: <ServiceDetails></ServiceDetails>,
         loader: ({ params }) =>
-          fetch(`http://localhost:4000/api/v1/services/${params.id}`),
+          fetch(
+            `https://oitech-server.vercel.app/api/v1/services/${params.id}`
+          ),
       },
       {
         path: "/about",

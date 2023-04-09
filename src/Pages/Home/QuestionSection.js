@@ -17,7 +17,7 @@ const QuestionSection = () => {
       message,
     };
     //save info
-    fetch("http://localhost:4000/api/v1/messages", {
+    fetch("https://oitech-server.vercel.app/api/v1/messages", {
       method: "POST",
       headers: {
         "content-type": "application/json",

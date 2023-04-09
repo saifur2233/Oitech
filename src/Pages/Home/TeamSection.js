@@ -3,6 +3,7 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const TeamSection = () => {
   return (
@@ -27,10 +28,25 @@ const TeamSection = () => {
                 </h2>
                 <p className="">Software Engineer</p>
                 <div className="flex gap-2">
-                  <FaEnvelope size={"2em"}></FaEnvelope>
-                  <FaFacebookSquare size={"2em"}></FaFacebookSquare>
-                  <FaLinkedin size={"2em"}></FaLinkedin>
-                  <FaGithubSquare size={"2em"}></FaGithubSquare>
+                  <Link
+                    onClick={() =>
+                      (window.location = "mailto:saifurnstuiit223344@gmail.com")
+                    }
+                  >
+                    <FaEnvelope size={"2em"}></FaEnvelope>
+                  </Link>
+                  <a href="https://www.facebook.com/saifur2233" target="_blank">
+                    <FaFacebookSquare size={"2em"}></FaFacebookSquare>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/saifur-rahman-4611a1162/"
+                    target="_blank"
+                  >
+                    <FaLinkedin size={"2em"}></FaLinkedin>
+                  </a>
+                  <a href="https://github.com/saifur2233" target="_blank">
+                    <FaGithubSquare size={"2em"}></FaGithubSquare>
+                  </a>
                 </div>
               </div>
             </div>

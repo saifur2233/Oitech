@@ -15,9 +15,11 @@ const AllServices = () => {
   } = useQuery({
     queryKey: ["allServices"],
     queryFn: async () => {
-      const res = await fetch(`http://localhost:4000/api/v1/services`);
+      const res = await fetch(
+        `https://oitech-server.vercel.app/api/v1/services`
+      );
       const data = await res.json();
-      return data.allServices;
+      return data;
     },
   });
 
